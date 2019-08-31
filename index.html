@@ -1,0 +1,31 @@
+<!-- Course: MMM (Make Money with Machine Learning) -->
+<!-- Student: Ravi Kasarla -->
+<!-- Date: 30-Aug-2019 -->
+<html>
+<head>
+	<!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+</head>
+<body>
+<h1>Ravi Kasarla -- First Assignment</h1>
+<br>
+<br>
+
+<table>
+<tr>
+<td>
+<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)"></p> 
+<p><img id="img" width="200" /></p>
+</td>
+<td>
+<h3>Image Classifier: TensorFlow MobileNet</h3>
+<p><button onclick="app()">Classify</button></p>
+<p id="classify_result"></p>
+</td>
+</table>
+
+<script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
